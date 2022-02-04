@@ -1,9 +1,9 @@
 tar -zxvf config.tar.gz
 
 # sudo since some files and directories are read only
-sudo rm -r ~/.vim
-rm ~/.vimrc
-rm ~/.tmux.conf
+sudo rm -r -f ~/.vim
+rm -f ~/.vimrc
+rm -f ~/.tmux.conf
 
 cp -l -r config/vim ~/.vim
 cp -l config/vimrc ~/.vimrc
