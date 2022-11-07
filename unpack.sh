@@ -1,4 +1,4 @@
-tar -zxvf config.tar.gz
+tar -zxf config.tar.gz
 
 # sudo since some files and directories are read only
 sudo rm -r -f ~/.vim
